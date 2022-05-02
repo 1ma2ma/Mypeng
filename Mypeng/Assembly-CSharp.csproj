@@ -57,6 +57,7 @@
     <Compile Include="Assets\Bitgem\StylisedWater\URP\Scripts\Bitgem\VFX\StylisedWater\WaterVolumeBase.cs" />
     <Compile Include="Assets\Scripts\SimpleCameraController.cs" />
     <Compile Include="Assets\Bitgem\StylisedWater\URP\Scripts\Bitgem\VFX\StylisedWater\WaterVolumeBox.cs" />
+    <Compile Include="Assets\Rresource\Character\Player.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
     <Compile Include="Assets\Bitgem\StylisedWater\URP\Scripts\Bitgem\Core\FlagEnumAttribute.cs" />
     <Compile Include="Assets\Bitgem\StylisedWater\URP\Scripts\Bitgem\VFX\StylisedWater\WaterVolumeHelper.cs" />
@@ -720,13 +721,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="com.unity.animations.springbone.editor.csproj">
-      <Project>{1A0F654C-BFFC-41F2-8C4B-0DF20D7E8B2B}</Project>
-      <Name>com.unity.animations.springbone.editor</Name>
-    </ProjectReference>
     <ProjectReference Include="com.unity.animations.springbone.csproj">
       <Project>{CA157B9C-AA6C-90EE-C028-62915071DD81}</Project>
       <Name>com.unity.animations.springbone</Name>
+    </ProjectReference>
+    <ProjectReference Include="com.unity.animations.springbone.editor.csproj">
+      <Project>{1A0F654C-BFFC-41F2-8C4B-0DF20D7E8B2B}</Project>
+      <Name>com.unity.animations.springbone.editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.UniversalToonShader.Urp.Editor.csproj">
       <Project>{A241E43C-0C66-8F63-3336-6AD76C79B028}</Project>

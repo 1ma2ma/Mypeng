@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{8039F81B-119D-1554-689A-C3494F47F6CC}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "com.unity.animations.springbone", "com.unity.animations.springbone.csproj", "{CA157B9C-AA6C-90EE-C028-62915071DD81}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "com.unity.animations.springbone.editor", "com.unity.animations.springbone.editor.csproj", "{1A0F654C-BFFC-41F2-8C4B-0DF20D7E8B2B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{8039F81B-119D-1554-689A-C3494F47F6CC}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{BB494CFD-CDCC-39A4-7BDA-BEEB95046F6D}"
 EndProject
@@ -17,10 +17,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{8039F81B-119D-1554-689A-C3494F47F6CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8039F81B-119D-1554-689A-C3494F47F6CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8039F81B-119D-1554-689A-C3494F47F6CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8039F81B-119D-1554-689A-C3494F47F6CC}.Release|Any CPU.Build.0 = Release|Any CPU
 		{CA157B9C-AA6C-90EE-C028-62915071DD81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{CA157B9C-AA6C-90EE-C028-62915071DD81}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CA157B9C-AA6C-90EE-C028-62915071DD81}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -29,6 +25,10 @@ Global
 		{1A0F654C-BFFC-41F2-8C4B-0DF20D7E8B2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1A0F654C-BFFC-41F2-8C4B-0DF20D7E8B2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1A0F654C-BFFC-41F2-8C4B-0DF20D7E8B2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8039F81B-119D-1554-689A-C3494F47F6CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8039F81B-119D-1554-689A-C3494F47F6CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8039F81B-119D-1554-689A-C3494F47F6CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8039F81B-119D-1554-689A-C3494F47F6CC}.Release|Any CPU.Build.0 = Release|Any CPU
 		{BB494CFD-CDCC-39A4-7BDA-BEEB95046F6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{BB494CFD-CDCC-39A4-7BDA-BEEB95046F6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BB494CFD-CDCC-39A4-7BDA-BEEB95046F6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
